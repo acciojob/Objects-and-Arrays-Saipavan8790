@@ -12,26 +12,14 @@ let arr = [
     { id: 3, name: "karen", age: "19", profession: "admin" },
   ];
   
-  function PrintDeveloperbyMap() {
+  function PrintDeveloper() {
     //Write your code here , just console.log
      arr.map((val)=>{
-        if(val.profession == "developer"){
+        if(val.profession === "developer"){
          console.log(val);
         }
     })
 }
-
-  function PrintDeveloperbyForEach() {
-    //Write your code here , just console.log
-    arr.forEach((val)=>{
-        if(val.profession == "developer"){
-            console.log(val);
-        }
-
-    })
-}
-
-  
   function addData() {
     //Write your code here, just console.log
     let newarr={
